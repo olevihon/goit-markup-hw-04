@@ -413,11 +413,11 @@ img {
     overflow: hidden;
 }
 
-.portfolio-list-item:hover .portfolio-item-overlay-text {
+.portfolio-list-item:hover .portfolio-list-img-text {
     transform: translateY(0%);
 }
 
-.portfolio-item-overlay-text {
+.portfolio-list-img-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
