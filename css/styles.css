@@ -413,7 +413,17 @@ img {
     overflow: hidden;
 }
 
-.portfolio-item-overlay {
+.portfolio-list-item:hover .portfolio-item-overlay-text {
+    transform: translatey(0);
+}
+
+.portfolio-item-overlay-text {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+
+    color: #f4f4fd;
+
     position: absolute;
     top: 0;
     left: 0;
@@ -428,18 +438,6 @@ img {
     padding-bottom: 40px;
     padding-left: 32px;
     padding-right: 32px;
-}
-
-.portfolio-list-item:hover .portfolio-item-overlay {
-    transform: translatey(0);
-}
-
-.portfolio-item-overlay-text {
-    font-size: 16px;
-    line-height: calc(24 / 16);
-    letter-spacing: 0.02em;
-
-    color: #f4f4fd;
 }
 
 /* footer */
