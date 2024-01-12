@@ -460,15 +460,21 @@ img {
     max-width: 264px;
 }
 
-.footer-main {
+.footer-content {
     display: flex;
-    column-gap: 120px;
+    align-items: baseline;
 }
 
-.footer-item-title {
+.footer-logo-text {
+    margin-right: 120px;
+}
+
+/* .footer-socials {} */
+
+.footer-socials-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(24 / 16);
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
